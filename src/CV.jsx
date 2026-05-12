@@ -138,7 +138,7 @@ export default function CV() {
         content: [
           'Muhammad Raza',
           'Senior SEO Expert based in Jalalpur Pirwala, Multan, Pakistan',
-          '3+ years driving organic growth across US, UK, and South Asian markets',
+          '3-5 years driving organic growth across US, UK, UAE, and South Asian markets',
           'Specializes in Technical SEO, Local SEO, on-page optimization, and Core Web Vitals',
           'Currently at Creative Chaos (USA) since September 2023',
         ].join('\n'),
@@ -161,10 +161,11 @@ export default function CV() {
         type: 'output',
         content: [
           '2023 — Present  Senior SEO Expert     Creative Chaos (USA)',
+          '2024 — 2025     SEO Executive         Contract (W3Torch, IJSREAT, Dubai Legal)',
           '2020 — 2023     SEO Manager           Reborn (Lahore, PK)',
           '2019 — 2020     SEO Expert            Intero Digital (Islamabad, PK)',
           '',
-          'Total: 3+ years across agency and senior SEO roles.',
+          'Total: 3-5 years across agency, contract, and senior SEO roles.',
         ].join('\n'),
       });
     } else if (trimmed === 'wins') {
@@ -172,20 +173,20 @@ export default function CV() {
         type: 'output',
         content: [
           '460%  Mobile PageSpeed lift (13 → 73)     FAB Clinic, UK',
-          '29%   Desktop PageSpeed lift (65 → 84)    FAB Clinic, UK',
+          '568%  Impressions growth (47k → 320k)     W3Torch',
+          '168%  Organic clicks period-over-period   IJRTMR Journal',
           '#1    "what is a lot size of a house"     ilaan.com (featured snippet)',
-          '#5    "5 / 10 marla house for sale in lahore"',
           '7+    Location pages at Rank Math 79/100  Liberty Power Wash, USA',
-          '4     Schema types validated, zero errors Breadcrumbs, Products, etc.',
+          'Page 1 Edge "document attestation Dubai"  Dubai Legal Markets',
         ].join('\n'),
       });
     } else if (trimmed === 'contact') {
       newHistory.push({
         type: 'output',
         content: [
-          'Email     admin@leadsbids.com',
-          'Phone     +92 346 8436020',
-          'Site      leadsbids.com',
+          'Email     mr3733219@gmail.com',
+          'Phone     +92 303 7240087',
+          'Site      raza.rawdigit.com',
           'Location  Jalalpur Pirwala, Multan, Pakistan',
         ].join('\n'),
       });
@@ -248,6 +249,20 @@ export default function CV() {
       metrics: ['Position 1', 'Featured snippet', 'High CTR']
     },
     {
+      url: 'notaryservicesdubai.com', name: 'notary services in Dubai', intent: 'local', featured: false, verified: true, pos: 13,
+      desc: 'High-intent local legal query — consistent page 2 ranking in highly competitive Dubai market',
+      type: 'Local Service', industry: 'Legal (UAE)',
+      tactics: ['Local Business schema', 'NAP consistency', 'Geo-targeted copy'],
+      metrics: ['Page 2', '41,000 impressions']
+    },
+    {
+      url: 'notariolawyersdubai.com', name: 'document attestation Dubai', intent: 'local', featured: false, verified: true, pos: 10,
+      desc: 'Competitive practice area query ranking on the edge of Page 1',
+      type: 'Local Service', industry: 'Legal (UAE)',
+      tactics: ['Practice area optimization', 'Internal link clustering', 'On-page structure'],
+      metrics: ['Pos 10.9 average', '27,800 impressions']
+    },
+    {
       url: 'ilaan.com', name: '5 marla house for sale in lahore', intent: 'transactional', featured: true, verified: true, pos: 5,
       desc: 'Highly competitive transactional query in the Lahore real estate market — top 5 SERP placement',
       type: 'Local Transactional', industry: 'Real Estate (Pakistan)',
@@ -283,13 +298,6 @@ export default function CV() {
       metrics: ['Position 9', 'Page 1']
     },
     {
-      url: 'ilaan.com', name: 'web hosting in lahore', intent: 'commercial', featured: false, verified: true, pos: 12,
-      desc: 'Adjacent service vertical — top of page 2 and climbing',
-      type: 'Service Page', industry: 'Tech (Pakistan)',
-      tactics: ['Content gap analysis', 'Competitor backlink research'],
-      metrics: ['Position 12', 'Page 2']
-    },
-    {
       url: 'fab-clinic.co.uk', name: 'aesthetic clinic UK (post-optimisation)', intent: 'commercial', featured: true, verified: true, pos: null,
       desc: 'Technical SEO and Core Web Vitals overhaul — mobile PageSpeed jumped 13 to 73',
       type: 'Technical Audit', industry: 'Aesthetics (UK)',
@@ -323,27 +331,6 @@ export default function CV() {
       type: 'Local Landing Page', industry: 'Exterior Cleaning (USA)',
       tactics: ['Long-form geo content', 'FAQ schema', 'Service area markup'],
       metrics: ['Score 79/100', '959 words']
-    },
-    {
-      url: 'libertypowerwash.net', name: 'Blue Ash OH exterior cleaning', intent: 'local', featured: false, verified: true, pos: null,
-      desc: 'Blue Ash service area page',
-      type: 'Local Landing Page', industry: 'Exterior Cleaning (USA)',
-      tactics: ['Location-specific keyword placement', 'Reviews schema'],
-      metrics: ['Score 79/100', 'All Good']
-    },
-    {
-      url: 'libertypowerwash.net', name: 'Burlington KY soft washing', intent: 'local', featured: false, verified: true, pos: null,
-      desc: 'Burlington, Kentucky location page',
-      type: 'Local Landing Page', industry: 'Exterior Cleaning (USA)',
-      tactics: ['Geo-targeted intent matching', 'Service-area schema'],
-      metrics: ['Score 79/100', 'All Good']
-    },
-    {
-      url: 'libertypowerwash.net', name: 'Walton KY power washing', intent: 'local', featured: false, verified: true, pos: null,
-      desc: 'Walton, Kentucky service page',
-      type: 'Local Landing Page', industry: 'Exterior Cleaning (USA)',
-      tactics: ['NAP consistency', 'Local citations', 'Internal links'],
-      metrics: ['Score 79/100', 'All Good']
     },
     {
       url: 'libertypowerwash.net', name: 'Christmas lighting installation', intent: 'commercial', featured: false, inProgress: true, pos: null,
@@ -527,15 +514,15 @@ export default function CV() {
           <h1 style={{ fontSize: '24pt', fontWeight: 'bold', margin: '0 0 4px 0', letterSpacing: '-0.5px' }}>Muhammad Raza</h1>
           <div style={{ fontSize: '12pt', color: '#333', marginBottom: '8px' }}>Senior SEO Expert</div>
           <div style={{ fontSize: '9.5pt', color: '#444' }}>
-            admin@leadsbids.com &nbsp;|&nbsp; +92 346 8436020 &nbsp;|&nbsp; Jalalpur Pirwala, Multan, Pakistan<br/>
-            leadsbids.com
+            mr3733219@gmail.com &nbsp;|&nbsp; +92 303 7240087 &nbsp;|&nbsp; Jalalpur Pirwala, Multan, Pakistan<br/>
+            raza.rawdigit.com
           </div>
         </div>
 
         <section style={{ marginBottom: '14px' }}>
           <h2 style={{ fontSize: '10pt', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1.5px', borderBottom: '1px solid #ccc', paddingBottom: '3px', marginBottom: '8px' }}>Profile</h2>
           <p style={{ margin: '0', textAlign: 'justify' }}>
-            Senior SEO Expert with 3+ years of proven success driving organic traffic and improving online visibility across US, UK, and South Asian markets. Skilled in Technical SEO, Core Web Vitals optimisation, Local SEO, on-page optimisation, schema markup implementation, and content strategy. Track record of measurable lifts including 460% mobile PageSpeed improvement, multi-location ranking architectures, and first-position SERP captures on competitive queries.
+            Senior SEO Expert with 3–5 years of proven success driving organic traffic and improving online visibility across US, UK, UAE, and South Asian markets. Skilled in Technical SEO, Core Web Vitals optimisation, Local SEO, on-page optimisation, schema markup implementation, and content strategy. Track record of measurable lifts including 460% mobile PageSpeed improvement, multi-location ranking architectures, and first-position SERP captures on competitive queries.
           </p>
         </section>
 
@@ -580,6 +567,19 @@ export default function CV() {
 
           <div style={{ marginBottom: '10px' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
+              <strong>SEO Executive (Contract / Project-Based)</strong>
+              <span>2024 — 2025</span>
+            </div>
+            <div style={{ fontStyle: 'italic', color: '#444', marginBottom: '4px' }}>Various Clients (W3Torch, IJSREAT, IJRTMR, Dubai Legal)</div>
+            <ul style={{ margin: '0', paddingLeft: '20px' }}>
+              <li><strong>W3Torch:</strong> Grew clicks +147% and impressions +568% over 6 months via technical audits and topical clusters.</li>
+              <li><strong>IJSREAT &amp; IJRTMR:</strong> Improved academic journal clicks by 168%, optimizing schema, internal linking, and content gaps.</li>
+              <li><strong>Dubai Legal Firms:</strong> Ranked highly competitive "notary services Dubai" queries via local SEO and Schema.</li>
+            </ul>
+          </div>
+
+          <div style={{ marginBottom: '10px' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '2px' }}>
               <strong>SEO Manager</strong>
               <span>2020 — 2023</span>
             </div>
@@ -612,10 +612,10 @@ export default function CV() {
           <h2 style={{ fontSize: '10pt', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '1.5px', borderBottom: '1px solid #ccc', paddingBottom: '3px', marginBottom: '8px' }}>Selected Results</h2>
           <ul style={{ margin: '0', paddingLeft: '20px' }}>
             <li><strong>FAB Clinic (UK)</strong> — Mobile PageSpeed +460% (13 to 73), Desktop +29% (65 to 84), four schema types validated</li>
+            <li><strong>W3Torch (Tech)</strong> — 568% increase in organic impressions (47.9k to 320k) over a 6-month period</li>
             <li><strong>Liberty Power Wash (USA)</strong> — 7+ location pages optimised to Rank Math 79/100, "All Good" Basic SEO on 6 of 7</li>
             <li><strong>ilaan.com (Pakistan)</strong> — Position #1 with featured snippet for "what is a lot size of a house"</li>
             <li><strong>ilaan.com</strong> — Position #5 on "5 / 10 marla house for sale in lahore" (high-competition geo terms)</li>
-            <li><strong>ilaan.com</strong> — Position #7 on "digital marketing agency in Lahore" (commercial service-page ranking)</li>
           </ul>
         </section>
 
@@ -824,10 +824,10 @@ export default function CV() {
                 <button onClick={handlePrint} className="px-6 py-3 rounded-lg border border-cyan-400/40 hover:border-cyan-400 hover:bg-cyan-400/10 text-cyan-400 font-medium text-sm flex items-center gap-2 transition-all hover:-translate-y-0.5">
                   <Download size={16} /> Download Resume
                 </button>
-                <a href="mailto:admin@leadsbids.com" className="px-6 py-3 rounded-lg border border-slate-700 hover:border-cyan-400 hover:text-cyan-400 text-slate-300 font-medium text-sm flex items-center gap-2 transition-all hover:-translate-y-0.5">
+                <a href="mailto:mr3733219@gmail.com" className="px-6 py-3 rounded-lg border border-slate-700 hover:border-cyan-400 hover:text-cyan-400 text-slate-300 font-medium text-sm flex items-center gap-2 transition-all hover:-translate-y-0.5">
                   <Mail size={16} /> Get in touch
                 </a>
-                <a href="tel:+923468436020" className="px-6 py-3 rounded-lg border border-slate-700 hover:border-cyan-400 hover:text-cyan-400 text-slate-300 font-medium text-sm flex items-center gap-2 transition-all hover:-translate-y-0.5">
+                <a href="tel:+923037240087" className="px-6 py-3 rounded-lg border border-slate-700 hover:border-cyan-400 hover:text-cyan-400 text-slate-300 font-medium text-sm flex items-center gap-2 transition-all hover:-translate-y-0.5">
                   <Phone size={16} /> Call
                 </a>
               </div>
@@ -1014,7 +1014,7 @@ export default function CV() {
               <div className="space-y-3 font-mono text-sm">
                 <div className="flex gap-3">
                   <span className="text-cyan-400 w-32 flex-shrink-0">Experience</span>
-                  <span className="text-slate-300">3+ years across US, UK, and Pakistan markets</span>
+                  <span className="text-slate-300">3-5 years across US, UK, UAE, and Pakistan markets</span>
                 </div>
                 <div className="flex gap-3">
                   <span className="text-cyan-400 w-32 flex-shrink-0">Biggest result</span>
@@ -1110,7 +1110,7 @@ export default function CV() {
               <p className="font-mono text-sm text-slate-400 mb-4">
                 In short: I am the SEO expert your competitor hopes you do not find.
               </p>
-              <a href="mailto:admin@leadsbids.com" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white font-medium text-sm hover:shadow-xl hover:shadow-purple-500/30 transition-all hover:-translate-y-0.5">
+              <a href="mailto:mr3733219@gmail.com" className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 via-purple-500 to-cyan-500 text-white font-medium text-sm hover:shadow-xl hover:shadow-purple-500/30 transition-all hover:-translate-y-0.5">
                 <Mail size={16} /> Let's talk
                 <ArrowUpRight size={14} />
               </a>
@@ -1129,7 +1129,7 @@ export default function CV() {
           <FadeIn delay={150}>
             <div className="glass rounded-2xl p-6 md:p-8 max-w-4xl mx-auto space-y-4 text-center">
               <p className="text-base md:text-lg leading-relaxed text-slate-300">
-                Three-plus years working <span className="text-cyan-400 font-medium">Technical SEO, Local SEO, and on-page optimisation</span> across US, UK, and South Asian markets. Started as an SEO Expert at Intero Digital in Islamabad, moved up to SEO Manager at Reborn in Lahore, and currently shipping for international clients as Senior SEO Expert at Creative Chaos.
+                3–5 years working <span className="text-cyan-400 font-medium">Technical SEO, Local SEO, and on-page optimisation</span> across US, UK, UAE, and South Asian markets. Started as an SEO Expert at Intero Digital in Islamabad, moved up to SEO Manager at Reborn in Lahore, and currently shipping for international clients as Senior SEO Expert at Creative Chaos.
               </p>
               <p className="text-base md:text-lg leading-relaxed text-slate-300">
                 Notable results: <span className="text-white font-semibold">460% mobile PageSpeed lift</span> on a UK aesthetics clinic, <span className="text-white font-semibold">first-position featured snippet</span> on a competitive Pakistani real-estate query, and a <span className="text-white font-semibold">seven-page geo-targeted location network</span> for a US power-washing client.
@@ -1143,7 +1143,7 @@ export default function CV() {
           <FadeIn delay={300}>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mt-8 max-w-4xl mx-auto">
               <div className="glass rounded-xl p-4 text-center hover:border-cyan-400/40 transition-all hover:-translate-y-1">
-                <div className="font-display text-3xl md:text-4xl font-bold gradient-text">3+</div>
+                <div className="font-display text-3xl md:text-4xl font-bold gradient-text">3-5</div>
                 <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Years Ranking</div>
               </div>
               <div className="glass rounded-xl p-4 text-center hover:border-cyan-400/40 transition-all hover:-translate-y-1">
@@ -1155,7 +1155,7 @@ export default function CV() {
                 <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">SERP Rank</div>
               </div>
               <div className="glass rounded-xl p-4 text-center hover:border-cyan-400/40 transition-all hover:-translate-y-1">
-                <div className="font-display text-3xl md:text-4xl font-bold gradient-text">3</div>
+                <div className="font-display text-3xl md:text-4xl font-bold gradient-text">4</div>
                 <div className="text-xs text-slate-400 uppercase tracking-wider mt-1">Countries Served</div>
               </div>
             </div>
@@ -1347,6 +1347,34 @@ export default function CV() {
                 ],
               },
               {
+                role: 'SEO Executive (Contract)', company: 'IJSREAT & IJRTMR', location: 'Remote', when: 'Project Engagement',
+                bullets: [
+                  ['Managed end-to-end SEO for academic research journals, driving ', 'significant organic growth', ' over a 3-month period'],
+                  ['IJRTMR: Grew total clicks by ', '168%', ' and impressions by ', '158%', ', moving average position from 30.8 to 20.1'],
+                  ['IJSREAT: Achieved ', '33,900 impressions', ' and 605 clicks with a 1.8% CTR'],
+                  ['Performed full content gap analysis and optimised title tags, meta descriptions, and paginated archives'],
+                  ['Implemented Schema markup for academic articles and built internal linking structures'],
+                ],
+              },
+              {
+                role: 'SEO Executive (Contract)', company: 'W3Torch', location: 'Remote', when: '6-Month Engagement',
+                bullets: [
+                  ['Managed SEO for a web development and programming resource website'],
+                  ['Grew total clicks by ', '147%', ' (226 → 557) and impressions by ', '568%', ' (47,900 → 320,000)'],
+                  ['Improved average position from ', '74.4 to 56.5', ' by targeting long-tail developer queries'],
+                  ['Performed full site audit, built topical clusters, and improved page experience signals'],
+                ],
+              },
+              {
+                role: 'SEO Executive (Contract)', company: 'Dubai Legal & Notary Services', location: 'Remote', when: 'Nov — Dec 2025',
+                bullets: [
+                  ['Managed local SEO for Notary Services Dubai and Notario Lawyers Dubai'],
+                  ['Achieved ', 'consistent Page 1 and Page 2 rankings', ' for highly competitive UAE legal search queries'],
+                  ['Optimised practice area pages, implemented local business Schema, and ensured NAP consistency'],
+                  ['Built location-specific content to capture geo-targeted search traffic in Dubai'],
+                ],
+              },
+              {
                 role: 'SEO Manager', company: 'Reborn', location: 'Lahore, Pakistan', when: '2020 — 2023',
                 bullets: [
                   ['Built and executed ', 'SEO strategies aligned to business goals', ' across the agency client portfolio'],
@@ -1363,6 +1391,13 @@ export default function CV() {
                   ['Optimised website content, meta tags, and structure for search engine visibility'],
                   ['Monitored and improved ', 'technical aspects', ' including site speed, mobile optimisation, and schema markup'],
                   ['Developed and executed link-building strategies for domain authority and backlink quality'],
+                ],
+              },
+              {
+                role: 'Developer (Personal Projects)', company: 'Vibe Coding & C++', location: 'Remote', when: 'Ongoing',
+                bullets: [
+                  ['Built web apps (CPF Generator, Battery Clean Pro) using ', 'HTML/CSS/JS', ' and AI assistants (Claude, ChatGPT, Replit)'],
+                  ['Developed interactive ', 'C++ console simulations', ' including a Car Trading Simulator and logic-based games'],
                 ],
               },
             ].map((job, i) => (
@@ -1604,6 +1639,30 @@ export default function CV() {
                 desc: 'UK aesthetics clinic with critical mobile and desktop performance issues. Full technical audit, performance optimisation, schema rollout, and Search Console validation.',
               },
               {
+                tag: 'Academic SEO · Content Strategy',
+                title: 'IJRTMR & IJSREAT — Journal Growth',
+                count: '+168% Clicks',
+                stack: ['Content Gap Analysis', 'Schema Markup', 'Internal Linking', 'On-Page SEO'],
+                custom: ['Identified unranked topics via content gap analysis', 'Implemented academic article structured data', 'Fixed technical crawl budget issues', 'Optimised paginated journal archives'],
+                desc: 'Delivered period-over-period organic growth for two academic journals, increasing clicks by 168% and capturing 33,900+ impressions through robust on-page and technical optimizations.',
+              },
+              {
+                tag: 'Technical SEO · Programming Niche',
+                title: 'W3Torch — Traffic Scaling',
+                count: '+568% Impressions',
+                stack: ['Site Audit', 'Topical Clusters', 'Core Web Vitals', 'Long-tail Keywords'],
+                custom: ['Resolved technical SEO issues blocking indexation', 'Built topical clusters around web development', 'Optimised for long-tail developer queries', 'Improved mobile usability and load speed'],
+                desc: 'Scaled organic visibility for a web development resource over 6 months, growing impressions from 47.9k to 320k and moving average positions up by 18 spots.',
+              },
+              {
+                tag: 'Local SEO · Legal Services · UAE',
+                title: 'Dubai Legal Firms — Geo-Targeting',
+                count: 'Page 1 Rankings',
+                stack: ['Local Business Schema', 'NAP Consistency', 'Geo Content', 'GSC Monitoring'],
+                custom: ['Optimised practice area pages for UAE legal intent', 'Added Schema markup for legal services', 'Built location-specific geo-targeted content', 'Ranked highly competitive notary queries'],
+                desc: 'Executed a focused 2-month local SEO sprint for Notary Services Dubai and Notario Lawyers Dubai, capturing high-intent traffic and page 1 edge rankings.',
+              },
+              {
                 tag: 'Local SEO · USA · Multi-Location',
                 title: 'Liberty Power Wash — 7 Location Network',
                 count: '7+ pages live',
@@ -1618,14 +1677,6 @@ export default function CV() {
                 stack: ['Content Strategy', 'Schema (Article + FAQ)', 'Internal Linking', 'Featured Snippet'],
                 custom: ['Long-form pillar content', 'Article and FAQ schema implementation', 'Internal link cluster build', 'Featured snippet formatting'],
                 desc: 'Captured position #1 with a featured snippet on "what is a lot size of a house" — a high-volume informational query on a competitive Pakistani real estate site.',
-              },
-              {
-                tag: 'Transactional · Pakistan · Competitive',
-                title: 'ilaan.com — Lahore Real Estate Cluster',
-                count: '4 page-1 keywords',
-                stack: ['Geo Landing Pages', 'Location Schema', 'Local Citations', 'On-page Density'],
-                custom: ['Geo-targeted landing pages per query variant', 'Location schema with unique content', 'CTR-optimised title tags', 'Pillar-page topical authority strategy'],
-                desc: 'Page-1 SERP positions on highly competitive Lahore real estate queries including "5 marla", "10 marla", "house for sale", and "digital marketing agency".',
               },
             ].map((p, i) => (
               <FadeIn key={i} delay={i * 100}>
@@ -1690,7 +1741,7 @@ export default function CV() {
                 <ul className="space-y-2.5 text-sm text-slate-300">
                   {[
                     '460% mobile PageSpeed lift (13 to 73) on UK aesthetics clinic',
-                    '29% desktop PageSpeed improvement (65 to 84) on the same site',
+                    '568% increase in organic impressions for programming resource site',
                     'Position #1 with featured snippet on competitive informational query',
                     '7+ location pages optimised to Rank Math 79/100 across Ohio and Kentucky',
                     'Four schema types validated with zero errors in Search Console',
@@ -1758,7 +1809,7 @@ export default function CV() {
                   </li>
                   <li className="border-l-2 border-pink-400/40 pl-3">
                     <div className="font-semibold text-white">Practitioner-trained SEO</div>
-                    <div className="text-xs text-slate-400">3+ years shipping production rankings across US, UK, and Pakistan markets</div>
+                    <div className="text-xs text-slate-400">3-5 years shipping production rankings across US, UK, UAE, and Pakistan markets</div>
                   </li>
                 </ul>
               </div>
@@ -1982,7 +2033,7 @@ export default function CV() {
               <p className="font-mono text-sm text-slate-400 mb-4">
                 Did not see your question? Ask me directly.
               </p>
-              <a href="mailto:admin@leadsbids.com" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-medium text-sm hover:shadow-xl hover:shadow-cyan-500/30 transition-all hover:-translate-y-0.5">
+              <a href="mailto:mr3733219@gmail.com" className="inline-flex items-center gap-2 px-5 py-2.5 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white font-medium text-sm hover:shadow-xl hover:shadow-cyan-500/30 transition-all hover:-translate-y-0.5">
                 <Mail size={14} /> Email me
                 <ArrowUpRight size={12} />
               </a>
@@ -2146,11 +2197,11 @@ export default function CV() {
                 </p>
                 <div className="grid grid-cols-2 gap-2 text-center">
                   <div className="bg-slate-900/60 border border-slate-700/40 rounded-md p-2">
-                    <div className="font-display text-base font-bold gradient-text">3+</div>
+                    <div className="font-display text-base font-bold gradient-text">3-5</div>
                     <div className="text-[10px] text-slate-500 uppercase tracking-wider">Years</div>
                   </div>
                   <div className="bg-slate-900/60 border border-slate-700/40 rounded-md p-2">
-                    <div className="font-display text-base font-bold gradient-text">3</div>
+                    <div className="font-display text-base font-bold gradient-text">4</div>
                     <div className="text-[10px] text-slate-500 uppercase tracking-wider">Countries</div>
                   </div>
                 </div>
@@ -2216,17 +2267,17 @@ export default function CV() {
               </p>
 
               <div className="flex flex-wrap gap-3 justify-center mb-10">
-                <a href="mailto:admin@leadsbids.com" className="font-mono text-sm px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white hover:shadow-lg hover:shadow-cyan-500/40 transition-all hover:-translate-y-0.5 flex items-center gap-2">
-                  <Mail size={14} /> admin@leadsbids.com
+                <a href="mailto:mr3733219@gmail.com" className="font-mono text-sm px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white hover:shadow-lg hover:shadow-cyan-500/40 transition-all hover:-translate-y-0.5 flex items-center gap-2">
+                  <Mail size={14} /> mr3733219@gmail.com
                 </a>
                 <button onClick={handlePrint} className="font-mono text-sm px-6 py-3 rounded-lg border border-cyan-400/40 text-cyan-400 hover:bg-cyan-400/10 transition-all hover:-translate-y-0.5 flex items-center gap-2">
                   <Download size={14} /> Download Resume (PDF)
                 </button>
-                <a href="tel:+923468436020" className="font-mono text-sm px-6 py-3 rounded-lg border border-cyan-400/40 text-cyan-400 hover:bg-cyan-400/10 transition-all hover:-translate-y-0.5 flex items-center gap-2">
-                  <Phone size={14} /> +92 346 8436020
+                <a href="tel:+923037240087" className="font-mono text-sm px-6 py-3 rounded-lg border border-cyan-400/40 text-cyan-400 hover:bg-cyan-400/10 transition-all hover:-translate-y-0.5 flex items-center gap-2">
+                  <Phone size={14} /> +92 303 7240087
                 </a>
-                <a href="https://leadsbids.com" target="_blank" rel="noopener noreferrer" className="font-mono text-sm px-6 py-3 rounded-lg border border-slate-600 text-slate-300 hover:border-cyan-400 hover:text-cyan-400 transition-all hover:-translate-y-0.5 flex items-center gap-2">
-                  <Globe size={14} /> leadsbids.com
+                <a href="https://raza.rawdigit.com" target="_blank" rel="noopener noreferrer" className="font-mono text-sm px-6 py-3 rounded-lg border border-slate-600 text-slate-300 hover:border-cyan-400 hover:text-cyan-400 transition-all hover:-translate-y-0.5 flex items-center gap-2">
+                  <Globe size={14} /> raza.rawdigit.com
                 </a>
                 <a href="https://fab-clinic.co.uk" target="_blank" rel="noopener noreferrer" className="font-mono text-sm px-6 py-3 rounded-lg border border-purple-500/40 text-purple-400 hover:bg-purple-500/10 transition-all hover:-translate-y-0.5 flex items-center gap-2">
                   <Gauge size={14} /> See FAB Clinic case
