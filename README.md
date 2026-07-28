@@ -162,3 +162,8 @@ MIT — see [LICENSE](LICENSE) file.
 ---
 
 Built with care for Muhammad Raza. Ship it.
+
+## Credits
+
+Built by [Azhar Ali](https://github.com/softglazee) / [SoftGlaze](https://softglaze.com)
+for Muhammad Raza. Released under the MIT license.
